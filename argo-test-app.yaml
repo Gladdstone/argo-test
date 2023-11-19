@@ -12,8 +12,8 @@ spec:
     server: 'https://kubernetes.default.svc'
   source:
     repoURL: https://github.com/Gladdstone/argo-test
-    targetRevision: argo-test
-    path: /
+    targetRevision: HEAD
+    path: argo-test
   syncPolicy:
     automated:
       selfHeal: true
